@@ -1,7 +1,7 @@
 .App {
   text-align: center;
+ 
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +27,40 @@
 .App-link {
   color: #61dafb;
 }
+.model{
+  border: 1px solid orange;
+  padding: 0;
+}
+.modelWith{
+  position: relative;
+}
+.GlassModel{
+  position: absolute;
+  width: 60%;
+  top:95px;
+  left: 65px;
+  opacity: 0.8;
+}
+.detail{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: rgba(255, 153, 51,0.6);
+  width: 100%;
+  /* opacity: 0.5; */
 
+}
+.text-left{
+  text-align: left;
+}
+.backGround{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -99;
+  top:0;
+  left: 0;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
