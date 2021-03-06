@@ -55,7 +55,7 @@
 }
 .backGround{
   width: 100%;
-  height: auto;
+  height: 100%;
   position: absolute;
   z-index: -99;
   top:0;
